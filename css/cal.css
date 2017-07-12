@@ -1,0 +1,74 @@
+body{
+  background-color: lightgrey;
+}
+main{
+  background-color: lightgrey;
+  width: 650px;
+  display: block;
+  margin-top: 1%;
+  margin-left: 20%;
+  border: 10px solid white;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.7);
+}
+div.mslashy {
+	background-color: rgba(0,0,0,0.1);
+	text-align: center;
+	width: 100%;
+	display: flex;
+}
+div.mslashy a{
+    margin-top: 4px;
+    padding-left: 32px;
+    padding-right: 32px;
+    text-decoration: none;
+}
+#monthspan{
+	padding-right: 5px;
+}
+#yearspan{
+	width: 40%;
+}
+div.mslashy span{
+	width: 50%;
+	font-size: 20px;
+}
+div.daydiv{
+	width: 100%;
+	padding-top: 10px;
+}
+div.daydiv span{ 
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    background-color: rgba(0,0,0,0.3);
+}
+
+div.calendar-day{
+  width: 7%;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  font-size: 22px;
+  line-height: 50%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 2%;
+  text-align: center;
+  display: inline-block;
+}
+
+.special {
+  background-color: #AAA;
+  box-shadow: 0px 2px 1px 0px rgba(255, 20, 20, 0.1);
+}
+
+.calendar-day:hover {
+  background-color: #aaa;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.calendar{
+  width: 100%; 
+}

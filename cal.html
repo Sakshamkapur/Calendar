@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Calender</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="./css/cal.css">
+</head>
+<body>
+   
+  <main> 
+    <div class="mslashy" id="shiftt">
+        <a href="#d" onclick="shiftyearback()"><<</a>
+    	<a href="#monthback" onclick="shiftmonthback()"> < </a><span id="monthspan">Month</span><span id="yearspan">Year</span> <a href="#monthforward" onclick="shiftmonthforward()"> > </a><a href="#bla" onclick="shiftyearforward()">>></a>
+    </div>
+    <div class="daydiv">
+      <span>Sun</span>
+      <span>Mon</span>
+      <span>Tue</span>
+      <span>Wed</span>
+      <span>Thu</span>
+      <span>Fri</span>
+      <span>Sat</span>
+    </div>
+      <div id="calendar" class="calendar">
+        		
+      </div>
+  </main>  
+</body>
+<script type="text/javascript" src="cal.js"></script>
+</html>
